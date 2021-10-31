@@ -99,7 +99,7 @@ def calculate(matrix: list) -> int:
     return len(craters)
 
 
-# Press the green button in the gutter to run the script.
+# Point to start
 if __name__ == '__main__':
     surface = read_txtfile_to_list("input.txt")
     if len(surface) <= 0:
